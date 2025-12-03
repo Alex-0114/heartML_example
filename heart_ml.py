@@ -22,7 +22,7 @@ st.set_page_config(page_title="Heart Disease – ML Demo", layout="wide", page_i
 
 # *VARS  -----------------------------------------------------------
 # Data path
-DATA_PATH = Path("data/health/heart.csv")
+DATA_PATH = Path("data/heart.csv")
 
 # Cols selezionate come feature
 FEATURE_COLS = ["age", "trestbps", "chol", "thalch", "oldpeak"]
